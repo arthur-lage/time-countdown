@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #f7f7f7 0%, #fff 100%);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  color: #121212;
+  margin-right: 5rem;
+}
+
+a {
+  font-size: 1.8rem;
+  align-self: center;
+  display: block;
+  height: max-content;
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 3.2rem;
+  color: #ff1f53;
+  margin-bottom: 3rem;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.time div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.time div h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #ff1f53;
+}
+
+.time div span {
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #262626;
+}
+
+@media screen and (max-width: 475px) {
+  h1 {
+    margin-right: 2.5rem;
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  .time {
+    gap: 1.5rem;
+  }
+
+  .time div h3 {
+    font-size: 1.6rem;
+  }
+
+  .time div span {
+    font-size: 2.8rem;
+  }
+}
